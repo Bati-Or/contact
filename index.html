@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ladislas Iweins – Bati Orge</title>
+<style>
+  :root { --bleu:#0A88CF; --jaune:#E7D111; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:#f4f8fb; color:#1a2a36;
+         min-height:100vh; display:flex; align-items:center; justify-content:center; padding:16px; }
+  .card { background:#fff; max-width:380px; width:100%; border-radius:18px; overflow:hidden;
+          box-shadow:0 6px 24px rgba(10,136,207,.15); text-align:center; }
+  .top { background:var(--bleu); color:#fff; padding:28px 20px 22px; border-bottom:6px solid var(--jaune); }
+  .top h1 { font-size:1.5rem; }
+  .top p { opacity:.9; margin-top:4px; }
+  .body { padding:22px 20px 26px; display:grid; gap:12px; }
+  a.btn { display:block; padding:14px; border-radius:12px; text-decoration:none; font-weight:600; }
+  .main { background:var(--jaune); color:#1a2a36; font-size:1.1rem; }
+  .sec { border:2px solid var(--bleu); color:var(--bleu); }
+  .row { display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; }
+  .row a { padding:10px 4px; font-size:.9rem; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="top">
+      <h1>Ladislas Iweins</h1>
+      <p>Marchand de biens · Bati Orge</p>
+    </div>
+    <div class="body">
+      <a class="btn main" href="ladislas-iweins.vcf" download>➕ Ajouter à mes contacts</a>
+      <a class="btn sec" href="tel:+33771551466">📞 07 71 55 14 66</a>
+      <a class="btn sec" href="mailto:iweins.ladislas@gmail.com">✉️ iweins.ladislas@gmail.com</a>
+      <a class="btn sec" href="https://www.batiorge.fr">🌐 batiorge.fr</a>
+      <div class="row">
+        <a class="btn sec" href="https://www.instagram.com/ladislas_iw/">Instagram</a>
+        <a class="btn sec" href="https://www.linkedin.com/in/ladislas-iweins/">LinkedIn</a>
+        <a class="btn sec" href="https://www.facebook.com/ladislas.iweins">Facebook</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

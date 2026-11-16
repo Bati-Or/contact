@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Iweins;Ladislas;;;
+FN:Ladislas Iweins
+ORG:Bati Orge
+TITLE:Marchand de biens
+TEL;TYPE=CELL,VOICE:+33 7 71 55 14 66
+EMAIL;TYPE=INTERNET,WORK:iweins.ladislas@gmail.com
+item1.URL:https://www.batiorge.fr
+item1.X-ABLabel:Site Bati Orge
+item2.URL:https://www.instagram.com/ladislas_iw/
+item2.X-ABLabel:Instagram
+item3.URL:https://www.linkedin.com/in/ladislas-iweins/
+item3.X-ABLabel:LinkedIn
+item4.URL:https://www.facebook.com/ladislas.iweins
+item4.X-ABLabel:Facebook
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/ladislas_iw/
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/ladislas-iweins/
+X-SOCIALPROFILE;TYPE=facebook:https://www.facebook.com/ladislas.iweins
+END:VCARD
